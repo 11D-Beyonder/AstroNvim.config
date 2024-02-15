@@ -6,5 +6,7 @@ return {
 
   { import = "astrocommunity.pack.lua" },
 
+  { import = "astrocommunity.debugging.nvim-dap-virtual-text" },
+
   { import = "astrocommunity.colorscheme.catppuccin" },
 }
