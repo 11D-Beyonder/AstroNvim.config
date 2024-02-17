@@ -1,5 +1,4 @@
 return {
-  -- Configure AstroNvim updates
   updater = {
     remote = "origin",     -- remote to use
     channel = "stable",    -- "stable" or "nightly"
@@ -56,7 +55,7 @@ return {
 
   -- Configure require("lazy").setup() options
   lazy = {
-    defaults = { lazy = true },
+    defaults = { lazy = false },
     performance = {
       rtp = {
         -- customize default disabled vim plugins
@@ -69,6 +68,7 @@ return {
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
+    -- 自动加载虚拟环境
     vim.api.nvim_create_autocmd("VimEnter", {
       desc = "Auto select virtualenv Nvim open",
       pattern = "*",
