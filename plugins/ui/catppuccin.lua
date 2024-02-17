@@ -2,7 +2,6 @@ return {
   {
     "catppuccin/nvim",
     name = "catppuccin",
-    ---@type CatppuccinOptions
     opts = {
       integrations = {
         alpha = true,
@@ -18,16 +17,6 @@ return {
         telescope = true,
         ts_rainbow = false,
         which_key = true,
-      },
-    },
-  },
-  {
-    "nvim-telescope/telescope.nvim",
-    optional = true,
-    opts = {
-      highlight = {
-        enable = true,
-        additional_vim_regex_highlighting = false,
       },
     },
   },

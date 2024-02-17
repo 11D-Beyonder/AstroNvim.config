@@ -5,6 +5,7 @@ return {
 
   require "user.plugins.tools.nvim-dap-virtual-text",
   require "user.plugins.tools.cmp",
+  require "user.plugins.tools.telescope",
 
   require "user.plugins.ui.alpha",
   require "user.plugins.ui.catppuccin",
