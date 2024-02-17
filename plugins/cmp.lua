@@ -3,6 +3,7 @@ return {
   dependencies = {
     {
       "hrsh7th/cmp-cmdline",
+      lazy = false,
       config = require "user.plugins.configs.cmp-cmdline",
     },
     "kdheepak/cmp-latex-symbols",
