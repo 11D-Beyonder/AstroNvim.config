@@ -69,17 +69,11 @@ return {
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
-    -- Set up custom filetypes
-    -- vim.filetype.add {
-    --   extension = {
-    --     foo = "fooscript",
-    --   },
-    --   filename = {
-    --     ["Foofile"] = "fooscript",
-    --   },
-    --   pattern = {
-    --     ["~/%.config/foo/.*"] = "fooscript",
-    --   },
-    -- }
+    vim.api.nvim_create_autocmd("VimEnter", {
+      desc = "Auto select virtualenv Nvim open",
+      pattern = "*",
+      callback = function() require("venv-selector").retrieve_from_cache() end,
+      once = true,
+    })
   end,
 }
