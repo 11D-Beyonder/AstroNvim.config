@@ -3,12 +3,13 @@ return {
   require "user.plugins.langs.lua",
   require "user.plugins.langs.json",
 
-  require "user.plugins.tools.nvim-dap-virtual-text",
   require "user.plugins.tools.cmp",
   require "user.plugins.tools.telescope",
 
-  require "user.plugins.ui.alpha",
-  require "user.plugins.ui.catppuccin",
-  require "user.plugins.ui.neo-tree",
-  require "user.plugins.ui.todo-comments",
+  require "user.plugins.appearance.alpha",
+  require "user.plugins.appearance.auto-dark-mode",
+  require "user.plugins.appearance.catppuccin",
+  require "user.plugins.appearance.neo-tree",
+  require "user.plugins.appearance.todo-comments",
+  require "user.plugins.appearance.nvim-dap-virtual-text",
 }

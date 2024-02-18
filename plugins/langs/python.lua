@@ -31,7 +31,6 @@ return {
   {
     "linux-cultist/venv-selector.nvim",
     cmd = { "VenvSelect", "VenvSelectCached" },
-    keys = { { "<leader>lv", "<cmd>:VenvSelect<cr>", desc = "Select VirtualEnv" } },
     opts = {
       anaconda_base_path = "~/miniconda3",
       anaconda_envs_path = "~/miniconda3/envs",

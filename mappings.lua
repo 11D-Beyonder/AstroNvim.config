@@ -21,7 +21,11 @@ maps.n["<leader>bD"] = {
 }
 
 if is_available "todo-comments.nvim" then
-  maps.n["<leader>ft"] = { "<cmd>TodoTelescope<CR>", desc = "Find TODO-like comments" }
+  maps.n["<leader>fT"] = { "<cmd>TodoTelescope<CR>", desc = "Find TODO-like comments" }
+end
+
+if is_available "venv-selector.nvim" then
+  maps.n["<leader>lv"] = { "<cmd>:VenvSelect<CR>", desc = "Select virtual enviroment" }
 end
 
 if is_available "neoconf.nvim" then
