@@ -4,7 +4,7 @@
       "python.analysis.autoImportCompletions": true,
       "python.analysis.autoSearchPaths": true,
       "python.analysis.diagnosticMode": "workspace",
-      "python.analysis.typeCheckingMode": "basic",
+      "python.analysis.typeCheckingMode": "off",
       "python.analysis.useLibraryCodeForTypes": true,
       "python.pythonPath": "python"
     }

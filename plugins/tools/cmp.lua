@@ -54,10 +54,10 @@ return {
         },
       },
       sources = require("cmp").config.sources {
-        { name = "nvim_lsp",      priority = 9 },
-        { name = "luasnip",       priority = 8 },
-        { name = "buffer",        priority = 7 },
-        { name = "path",          priority = 6 },
+        { name = "nvim_lsp", priority = 9 },
+        { name = "luasnip", priority = 8 },
+        { name = "buffer", priority = 7 },
+        { name = "path", priority = 6 },
         { name = "latex_symbols", priority = 5, option = { strategy = 0 } },
       },
     })
