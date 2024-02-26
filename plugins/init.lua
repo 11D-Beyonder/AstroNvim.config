@@ -11,7 +11,9 @@ return {
   require "user.plugins.appearance.alpha",
   require "user.plugins.appearance.auto-dark-mode",
   require "user.plugins.appearance.catppuccin",
+  require "user.plugins.appearance.noice",
   require "user.plugins.appearance.neo-tree",
   require "user.plugins.appearance.todo-comments",
+  require "user.plugins.appearance.nvim-notify",
   require "user.plugins.appearance.nvim-dap-virtual-text",
 }
