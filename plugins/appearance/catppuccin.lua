@@ -18,7 +18,6 @@ return {
         ts_rainbow = false,
         which_key = true,
         noice = true,
-        telescope = { style = "nvchad" },
       },
     },
   },

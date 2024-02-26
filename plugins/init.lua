@@ -7,6 +7,7 @@ return {
 
   require "user.plugins.tools.cmp",
   require "user.plugins.tools.telescope",
+  require "user.plugins.tools.flash",
 
   require "user.plugins.appearance.alpha",
   require "user.plugins.appearance.auto-dark-mode",
