@@ -10,6 +10,7 @@ maps.n["<S-Tab>"] = {
   function() require("astronvim.utils.buffer").nav(-(vim.v.count > 0 and vim.v.count or 1)) end,
   desc = "Previous buffer",
 }
+maps.n["gh"] = { function() vim.lsp.buf.hover() end, desc = "Hover symbol details" }
 
 maps.n["<leader>bD"] = {
   function()
