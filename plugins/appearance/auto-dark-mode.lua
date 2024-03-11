@@ -1,5 +1,6 @@
 return {
   "f-person/auto-dark-mode.nvim",
+  lazy = false,
   opts = {
     update_interval = 100,
     set_dark_mode = function()
