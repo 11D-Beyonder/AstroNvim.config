@@ -4,6 +4,7 @@ return {
   require "user.plugins.langs.json",
   require "user.plugins.langs.rust",
   require "user.plugins.langs.toml",
+  require "user.plugins.langs.c&cpp",
 
   require "user.plugins.tools.cmp",
   require "user.plugins.tools.telescope",
